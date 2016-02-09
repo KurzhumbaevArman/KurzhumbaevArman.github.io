@@ -1,0 +1,37 @@
+body{
+	background-color: green;
+	height: 100000px;
+}
+.left,
+.right{
+	background-color: blue;
+	display: inline-block;
+	
+	padding: 0px;
+}
+.left{
+	margin-right: -3px;
+	overflow: hidden;
+}
+.right{
+	margin-left: -3px;
+}
+.hello,
+.world{
+	position: fixed;
+	font-size: 50pt;
+	top:35%;
+}
+.hello{
+	left: 37%;
+}
+.grandParent{
+}
+.parentSlide{
+	position: fixed;
+	margin-right: auto;
+	top:0px;
+	left: 0px;
+	width: 700px;
+	height: 700px;
+}
